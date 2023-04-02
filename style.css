@@ -1,0 +1,70 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  img {
+    width: 100px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button.delete {
+    background-color: #f44336;
+  }
+  
+  /* Specific styles */
+  
+  #flatdango {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  td:nth-child(6),
+  td:nth-child(7),
+  td:nth-child(8) {
+    text-align: center;
+  }
+  
+  .buy-ticket {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .buy-ticket:hover {
+    background-color: #3e8e41;
+  }
+  
+  .delete {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .delete:hover {
+    background-color: #da190b;
+  }
+  
